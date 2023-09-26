@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Josiane da Silva">
+    <title>Portifolio Profissional</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/resposivo.css">
+</head>
+<body onresize="mudoutamanho()">
+    <header>
+        <div class="menu" onclick="clickmenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <menu id="itens">
+            <ul>
+                <a href="#main">Home</a>
+                <a href="#formacao">Formação</a>
+                <a href="#skills">Habilidades</a>
+                <a href="#experiencia">Experiências</a>
+            </ul>
+        </menu>
+            <ul class="menu-reponsivo">
+                <li class="container">
+                    <a class="text1" data-text="Home" href="#main">Home</a>
+                </li>
+                <li class="container">
+                    <a class="text1" data-text="Formação" href="#formacao">Formação</a>
+                </li>
+                <li class="container">
+                    <a class="text1" data-text="Habilidades" href="#skills">Habilidades</a>
+                </li>
+                <li class="container"> 
+                    <a class="text1" data-text="Experiencias" href="#experiencia">Experiencias</a>
+                </li>
+            </ul>
+    </header>
+    <main id="main">
+        <section id="sobre">
+            <div class="sobre-mim">
+                <h1>Josiane Silva</h1>
+                <h3>Analista de Sistemas</h3>
+                <h3>Desenvolvedora Full Stack</h3>
+                <p>Bem Vindos! <br> Sou Josiane da Silva, formada em Tecnologia da Informação. Trabalhei como assistente de pesquisa e analista de sistemas, onde adquiri conhecimento e experiência em manipulação, processamento, visualização e análise de dados (Linux, Shell script, CDO, Python). Também tenho conhecimento em Mysql, Sql, PHP, Html5, Css3, Javascript, Git e Github. Atualmente estou focando meus estudos em desenvolvimento web (backend e frontend). </p>
+            </div>
+            <div>
+                <img id="foto" src="img/FB_IMG_1659031301839.jpg">
+            </div>
+        </section>
+        <section id="formacao">
+            <h2>Formação Acadêmica</h2>
+            <div class="cursos">
+                <img src="img/curso-online.png">
+                <h3>Tecnologia em Informática - Banco de dados</h3>
+                <p>Fatec - Faculdade Prof. Waldomiro May</p>
+                <p>jul 2008 - jul 2011</p>
+            </div>
+            <div class="cursos">
+                <img src="img/educacao-online.png">
+                <h3>Cursos Extracurriculares</h3>
+                <p>Computação de dados ambientais</p>
+                <p>Aplicação de métodos estatásticos</p>
+                <p>Network Securyt 70h - 2022</p>
+                <p>CCNA1 Introdução a Redes 70h - 2022</p>
+                <p>Fundamentos em Cibergurança 30h - 2022</p>
+            </div>
+        </section>
+        <section id="skills">
+            <h2>Habilidades</h2>
+            <div class="habilidades">
+                <abbr title="Linux"><img src="img/linux.png"></abbr>
+                <abbr title="Analise de dados"><img src="img/analise-de-dados.png"></abbr>
+                <abbr title="Python"><img src="img/python.png"></abbr>
+                <abbr title="Sql"><img src="img/servidor-sql.png"></abbr>
+                <abbr title="Mysql"><img src="img/mysql.png"></abbr>
+                <abbr title="Php"><img src="img/php.png"></abbr>
+                <abbr title="Html 5"><img src="img/html-5.png"></abbr>
+                <abbr title="Css 3"><img src="img/css.png"></abbr>
+                <abbr title="JavaScript"><img src="img/js.png"></abbr>
+                <abbr title="NodeJs"><img src="img/nodejs.jpg"></abbr>
+                <abbr title="Git"><img src="img/git.png"></abbr>
+                <abbr title="Github"><img src="img/github.png"></abbr>
+            </div>
+        </section>
+        <section id="experiencia">
+            <h2>Experiências</h2>
+            <div class="experiencia-block1">    
+                <div class="experiencia-itens">
+                    <img src="img/logoInpe.png" style="background:white;">
+                    <h3>Instituto Nacional de Pesquisas Espaciais - INPE</h3>
+                    <ul>
+                        <li>Bolsista FAPES - DTI-A (jun 2020 - jan 2021)</li>
+                        <li>Bolsista FAPES - DTI-A (mai 2019 - abr 2020)</li>
+                    </ul>
+                </div>
+                 <div class="experiencia-itens">
+                    <img src="img/logoInpe.png" style="background:white;">
+                    <h3>Ambar Technology</h3>
+                    <ul>
+                        <li>Analista de sistemas (abr 2017 - mar 2018)</li><br>
+                    </ul>
+                </div>
+            </div>
+            <div class="experiencia-block1">
+               <div class="experiencia-itens">
+                    <img src="img/logoInpe.png" style="background:white;">
+                    <h3>Instituto Nacional de Pesquisas Espaciais - INPE</h3>
+                    <ul>
+                        <li>Bolsista Cnpq - EXP (abr 2016 - mar 2017)</li>
+                        <li>Bolsista Cnpq - EXP-B (abr 2015 - mar 2016)</li>
+                    </ul>
+                </div>
+                <div class="experiencia-itens">
+                    <img src="img/logoInpe.png" style="background:white;">
+                    <h3>Instituto Nacional de Pesquisas Espaciais - INPE</h3>
+                    <ul>
+                        <li>Bolsista Cnpq - PCI-DD (mai 2012 - abr 2015)</li>
+                        <li>Bolsista Cnpq - Iniciação Científica (jun 2010 - mai 2011)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <a href="https://github.com/josiane-silwa" target="_blank"><img src="img/githubdownload.png"></a>
+            <a href="https://www.linkedin.com/in/josiane-silva-6a650532" target="_blank"><img src="img/linkedindownload.png"></a>
+            <a href="http://lattes.cnpq.br/3889829973365080" target="_blank"><img src="img/logolattes.png" style="width:90px;"></a>
+            <p>&copy; 2022. Todos os direitos reservados. Josiane da Silva</p>
+        </footer>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
